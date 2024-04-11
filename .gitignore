@@ -1,0 +1,7 @@
+.dev
+.vscode
+__pycache__
+local.settings.json
+package-lock.json
+node_modules
+README.md

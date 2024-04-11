@@ -1,0 +1,38 @@
+* {
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+img.fileIcon {
+    height: 25px;
+    position: relative;
+    top: -1.5px;
+}
+
+.spinner {
+    position: relative;
+    top: 3.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.generated-chapter-content {
+    border-top: 1px solid #ddd;
+    padding-top: 1.0rem;
+    margin-top: 1rem;
+}
+
+.generated-chapter-content p {
+    margin-bottom: 0.5rem;
+}
+
+.generated-chapter-content h1 {
+    font-size: 1.5rem;
+}
+
+.generated-chapter-content h2 {
+    font-size: 1.25rem;
+}
+
+.generated-chapter-content h3 {
+    font-size: 1.0rem;
+}
