@@ -318,3 +318,6 @@ az role assignment create \
     --role "Cognitive Services OpenAI User" \
     --scope "subscriptions/$SUBSCRIPTION_ID/resourceGroups/$AZURE_OPENAI_RESOURCE_GROUP/providers/Microsoft.CognitiveServices/accounts/$AZURE_OPENAI_ACCOUNT_NAME" \
     --assignee $AI_SEARCH_MANAGED_ID
+
+# Azure Functions を再起動する
+az functionapp restart --resource-group $RESOURCE_GROUP_NAME --name $FUNCTION_NAME
